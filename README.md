@@ -15,7 +15,7 @@ Welcome to my portfolio website! This site showcases my skills, projects, and ex
 
 ## About Me
 
-Hello! I'm [Your Name], a passionate and dedicated [Your Profession] with a strong focus on [Your Specialization or Field of Interest]. With [number] years of experience in the industry, I have developed a diverse set of skills and a portfolio of projects that demonstrate my capabilities.
+Hello! I'm Muhammad Mobeen, a passionate and dedicated Software Engineering and Full Stack Development with a strong focus on MERN Stack. I have developed a diverse set of skills and a portfolio of projects that demonstrate my capabilities.
 
 ## Skills
 

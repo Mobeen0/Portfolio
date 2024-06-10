@@ -2,7 +2,7 @@
 
 # My Portfolio
 
-Welcome to my portfolio website! This site showcases my skills, projects, and experience as a [Your Profession].
+Welcome to my portfolio website! This site showcases my skills, projects, and experience as a Software Engineer.
 
 ## Table of Contents
 

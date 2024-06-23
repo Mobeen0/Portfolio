@@ -34,7 +34,7 @@ function ProjectsContent(props) {
         header1.current.style.color = '';
     }
     return (
-        <div className ={`projectContainer ${load? `projFirst`:``}`} onMouseOver={handleHoverOn} onMouseLeave={handleHoverOff}>
+        <div style = {{cursor:'pointer'}} className ={`projectContainer ${load? `projFirst`:``}`} onMouseOver={handleHoverOn} onMouseLeave={handleHoverOff}>
             <div className="imageCont">
                 <img src ={props.toAdd.image} alt ="project logo" className ="proj-Image" ref ={myImage}></img>
                 <div className = "lightEffect">

@@ -14,6 +14,7 @@ function About(props) {
         <div className = {`myText ${props.mobileOrientation?`change`:``}`}>
           <p className="aboutDesc">{props.toAdd.info}</p>
         </div> 
+
     </div>
   )
 }

@@ -124,3 +124,46 @@
 .spanHover{
     color:cyan;
 }
+
+.profileImg{
+    
+
+    border-radius:50%;
+    filter:grayscale(100%);
+    float:right;
+    width:25%;
+    height:auto;
+    position:absolute;
+    right:10%;
+    top:30%;
+    animation: floating 6s linear infinite;
+    cursor:pointer;
+
+    @media(orientation:portrait){
+        display:none;
+    }
+}
+
+.profileImg:hover{
+    filter:grayscale(0%);
+    box-shadow:0px 0px 10px 15px cyan;
+    transition:0.2s;
+}
+
+@keyframes floating{
+    0%{
+        transform:translateY(0px);
+    }
+    30%{
+        transform:translateY(-20px);
+    }
+    40%{
+        transform:translateY(0px);
+    }
+    80%{
+        transform:translateY(-30px);
+    }
+    100%{
+        transform:translateY(0px);
+    }
+}

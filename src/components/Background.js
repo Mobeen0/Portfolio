@@ -5,9 +5,7 @@ import './styleSheet/Background.css';
 function Background(props) {
   if(props.type===true){
     return(
-      <div className = "mobileBackground">
-
-      </div>
+      <Particles params = {particlesConfig} />
     );
   }
   else{

@@ -3,6 +3,8 @@ import {Link} from 'react-router-dom';
 import {useState,useEffect,useRef} from 'react';
 import {AiFillGithub} from 'react-icons/ai';
 
+import profilePic from '../assets/Muhammad_Mobeen_Profile.png';
+
 function Home(props) {
   let [load,setLoad] = useState(false);
   let [hoverState,setHoverState] = useState(false);
@@ -28,6 +30,8 @@ function Home(props) {
             </ul>
           </div>
       </Link>
+
+      <img src={profilePic} className = "profileImg" />
     </div>
   )
 }

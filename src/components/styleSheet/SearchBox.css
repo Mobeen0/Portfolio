@@ -1,10 +1,13 @@
 .searchBoxCont{
+    position:relative;
     display:flex;
     justify-content:flex-end;
     margin-top:3%;
     line-height:100%;
     margin-right:2%;
-
+    @media(orientation:portrait){
+        margin-right:10%;
+    }
 }
 
 .searchBox{
@@ -14,6 +17,7 @@
     font-size:1rem;
     padding-left:1vw;
     border-width:0;
+    border-radius:20px;
     @media(orientation:portrait){
         width:40vw;
     }
@@ -23,9 +27,11 @@
     display:flex;
     justify-content:center;
     align-items:center;
-    background:black;
+    background:transparent;
+    color:black;
     padding:0.3%;
     cursor:pointer;
+    position:absolute;
 }
 .searchIcon:hover{
     opacity:0.8;
@@ -33,5 +39,5 @@
 .faSearch{
     font-size:3.7vh;
     margin:2%;
-    color:white;
+    color:black;
 }

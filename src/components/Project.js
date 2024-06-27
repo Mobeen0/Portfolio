@@ -1,6 +1,7 @@
 import React from 'react';
 import projectsInfo from './config/projectsInfo';
 import persprojectsInfo from './config/personalProjInfo';
+import NewCard from './NewCard.js';
 import {useState} from 'react';
 import {FaSearch} from 'react-icons/fa';
 import './styleSheet/SearchBox.css';
@@ -54,6 +55,7 @@ function Project(props) {
             <h1 className = "ProjHeaders">
                 University Projects
             </h1>
+                
                 {props.mobileOrientation?
                     projectsInfo.filter(filterFunc).map((item,index)=>(
                         < ProjectsContentMob toAdd = {item}/>

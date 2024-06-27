@@ -332,8 +332,8 @@ const particlesConfig ={
         width: 1920,
         height: 1080
       },
-      limit: 0,
-      value: 50
+      limit: 70,
+      value: 70
     },
     opacity: {
       random: {

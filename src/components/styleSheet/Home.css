@@ -7,8 +7,9 @@
     transition:0.4s;
     opacity:0;
     transform:translateY(50%);
+    margin-top:-70px;
     @media(orientation:portrait){
-        margin-top:22%;
+        margin-top:69%;
     }
 }
 
@@ -127,9 +128,11 @@
 
 .profileImg{
     
-
+    border-width:3px;
+    border-color:black;
+    border-style:solid;
     border-radius:50%;
-    filter:grayscale(100%);
+    filter: sepia(72%) saturate(73%) hue-rotate(139deg) contrast(86%);
     float:right;
     width:25%;
     height:auto;
@@ -140,15 +143,19 @@
     cursor:pointer;
 
     @media(orientation:portrait){
-        display:none;
+        width:55%;
+        top:-61%;
+        left:20%;
     }
 }
 
 .profileImg:hover{
-    filter:grayscale(0%);
+    filter: sepia(0) saturate(100%) hue-rotate(0deg);
     box-shadow:0px 0px 10px 15px cyan;
     transition:0.2s;
+    border-color:white;
 }
+
 
 @keyframes floating{
     0%{

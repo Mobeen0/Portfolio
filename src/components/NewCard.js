@@ -1,10 +1,8 @@
-import './styleSheet/newCard.css';
-
 import { FaGithub } from "react-icons/fa";
 
 function NewCard(props) {
   return (
-    <div className = "new_Card_container">
+    <div>
     <article class="card__article">
                <div class="card__scale-1"></div>
                <div class="card__scale-2"></div>

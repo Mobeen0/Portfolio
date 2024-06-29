@@ -15,6 +15,13 @@ function Navbar(props){
         if(hammer){
             setHammer(false);
         }
+        props.changeBG(false)
+    }
+    let resetHammer2 = ()=>{
+        if(hammer){
+            setHammer(false)
+        }
+        props.changeBG(true)
     }
 
 
@@ -34,18 +41,37 @@ function Navbar(props){
                 </div>
             <ul className = {`list2 ${hammer?`mobileNav`:``}`}>
                 {
-                menuBarItems.map((item,index) =>(
-                    <li className = "Navbaritem">
-                        <NavLink className = "item" activeClassName = {hammer? "":"active"} to = {item.path} onClick = {resetHammer}>
-                            <span className = "navIcon">
-                                {item.icon}
-                            </span>
-                            <span className="navText">
-                                {item.name}
-                            </span>
-                        </NavLink>
-                    </li>
-                ))
+                menuBarItems.map((item,index) =>{
+                    if(item.name=== 'Projects'){
+                        return(
+                            <li className = "Navbaritem">
+                                <NavLink className = "item" activeClassName = {hammer? "":"active"} to = {item.path} onClick = {resetHammer2}>
+                                    <span className = "navIcon">
+                                        {item.icon}
+                                    </span>
+                                    <span className="navText">
+                                        {item.name}
+                                    </span>
+                                </NavLink>
+                            </li>
+                        )
+                    }
+                    else{
+                        return(
+                            <li className = "Navbaritem">
+                                <NavLink className = "item" activeClassName = {hammer? "":"active"} to = {item.path} onClick = {resetHammer}>
+                                    <span className = "navIcon">
+                                        {item.icon}
+                                    </span>
+                                    <span className="navText">
+                                        {item.name}
+                                    </span>
+                                </NavLink>
+                            </li>
+                        )       
+                    }
+                } 
+                )
                 }
                 <li className ="Navbaritem res">
                 <a className ="item res" href ={CV} target="_blank" rel = "noreferrer">

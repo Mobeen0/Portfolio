@@ -9,14 +9,18 @@ import Contact from './components/Contact';
 import FirstLoad from './components/FirstLoad';
 import contactInfo from './components/config/contactInfo';
 import Scrollbars from 'react-custom-scrollbars';
+import TimelineProject from './components/TimelineProject';
+
 const Project  = React.lazy(()=>import('./components/Project'));
 const AboutPage = React.lazy(()=>import('./components/AboutPage'));
+
 
 function App() {
 
   let scrollRef  = useRef();
   let [shad,setShad] = useState(false); 
   let [mobileOr,setMobileOr] = useState(false);
+  let [blackBG, setBlackBG] = useState(false);
   const scrollbarStyle ={width:'100vw'
                         ,height:'100vh'};
 
@@ -59,8 +63,8 @@ function App() {
       <div>
         <Scrollbars style={scrollbarStyle} onScroll = {myFunc} ref = {scrollRef}>
         <div className = "Main">
-        <Background type = {mobileOr} />
-          <Navbar navBool = {shad} /> {/* This is the header Navbar*/}
+        <Background type = {mobileOr} black = {blackBG} />
+          <Navbar navBool = {shad} changeBG = {setBlackBG} /> {/* This is the header Navbar*/}
             <Routes>
               <Route path = '/' element = 
               {
@@ -71,9 +75,13 @@ function App() {
                 <Home />
               }></Route>
               <Route path = '/Project' element = {
-                <React.Suspense>
+                <>
+                {/*<React.Suspense>
                 <Project mobileOrientation = {mobileOr} />
-                </React.Suspense>
+                </React.Suspense>*/}
+                  < TimelineProject />
+                </>
+
               }></Route>
               <Route path = '/Contact' element = {
                 <div className ="contactGrid">

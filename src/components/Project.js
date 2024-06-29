@@ -1,7 +1,6 @@
 import React from 'react';
 import projectsInfo from './config/projectsInfo';
 import persprojectsInfo from './config/personalProjInfo';
-import NewCard from './NewCard.js';
 import {useState} from 'react';
 import {FaSearch} from 'react-icons/fa';
 import './styleSheet/SearchBox.css';

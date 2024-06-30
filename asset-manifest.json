@@ -1,15 +1,9 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.a1cb93e8.css",
-    "main.js": "/Portfolio/static/js/main.5de26b62.js",
-    "static/css/92.c707a897.chunk.css": "/Portfolio/static/css/92.c707a897.chunk.css",
-    "static/js/92.882b3f88.chunk.js": "/Portfolio/static/js/92.882b3f88.chunk.js",
+    "main.css": "/Portfolio/static/css/main.0295e8f1.css",
+    "main.js": "/Portfolio/static/js/main.a658954f.js",
     "static/css/806.d74735b7.chunk.css": "/Portfolio/static/css/806.d74735b7.chunk.css",
     "static/js/806.cd3072f8.chunk.js": "/Portfolio/static/js/806.cd3072f8.chunk.js",
-    "static/css/672.08b455f9.chunk.css": "/Portfolio/static/css/672.08b455f9.chunk.css",
-    "static/js/672.6e2699df.chunk.js": "/Portfolio/static/js/672.6e2699df.chunk.js",
-    "static/css/907.d7d892bb.chunk.css": "/Portfolio/static/css/907.d7d892bb.chunk.css",
-    "static/js/907.bc500678.chunk.js": "/Portfolio/static/js/907.bc500678.chunk.js",
     "static/js/246.8c336283.chunk.js": "/Portfolio/static/js/246.8c336283.chunk.js",
     "static/media/Muhammad_Mobeen_Profile.png": "/Portfolio/static/media/Muhammad_Mobeen_Profile.4cab1928e87cf903b357.png",
     "static/media/treasureHunter.png": "/Portfolio/static/media/treasureHunter.5cfdb25df54e55902bcf.png",
@@ -18,12 +12,10 @@
     "static/media/uefaLeague.png": "/Portfolio/static/media/uefaLeague.a6e83454aa2327b8b004.png",
     "static/media/hamiltonian.png": "/Portfolio/static/media/hamiltonian.bc1a4805a5aae9e3903e.png",
     "static/media/retinal.png": "/Portfolio/static/media/retinal.7343deb2b5e5a54e5131.png",
-    "static/media/immunSurvey.png": "/Portfolio/static/media/immunSurvey.b236011354932f680b22.png",
     "static/media/microsoft-sql-server-logo.png": "/Portfolio/static/media/microsoft-sql-server-logo.a93530924d4854474bee.png",
     "static/media/dotnet-logo.png": "/Portfolio/static/media/dotnet-logo.f4a304b92b127e20786a.png",
     "static/media/react-logo.png": "/Portfolio/static/media/react-logo.6ef7531429fa78c6182f.png",
     "static/media/housing.jpeg": "/Portfolio/static/media/housing.ce53964d84fd76a62920.jpeg",
-    "static/media/portFolio.png": "/Portfolio/static/media/portFolio.d87ef207ddee9f5273df.png",
     "static/media/python-logo.png": "/Portfolio/static/media/python-logo.52d7bb207f9868b90e39.png",
     "static/media/myNewLogo.png": "/Portfolio/static/media/myNewLogo.b629c50ab758178dc74b.png",
     "static/media/c-logo.png": "/Portfolio/static/media/c-logo.2b2276395e116be80813.png",
@@ -38,20 +30,14 @@
     "static/media/bTree.png": "/Portfolio/static/media/bTree.a0e731977e2970f9d1dd.png",
     "static/media/gaming.png": "/Portfolio/static/media/gaming.f8158caec3e648dfa873.png",
     "index.html": "/Portfolio/index.html",
-    "main.a1cb93e8.css.map": "/Portfolio/static/css/main.a1cb93e8.css.map",
-    "main.5de26b62.js.map": "/Portfolio/static/js/main.5de26b62.js.map",
-    "92.c707a897.chunk.css.map": "/Portfolio/static/css/92.c707a897.chunk.css.map",
-    "92.882b3f88.chunk.js.map": "/Portfolio/static/js/92.882b3f88.chunk.js.map",
+    "main.0295e8f1.css.map": "/Portfolio/static/css/main.0295e8f1.css.map",
+    "main.a658954f.js.map": "/Portfolio/static/js/main.a658954f.js.map",
     "806.d74735b7.chunk.css.map": "/Portfolio/static/css/806.d74735b7.chunk.css.map",
     "806.cd3072f8.chunk.js.map": "/Portfolio/static/js/806.cd3072f8.chunk.js.map",
-    "672.08b455f9.chunk.css.map": "/Portfolio/static/css/672.08b455f9.chunk.css.map",
-    "672.6e2699df.chunk.js.map": "/Portfolio/static/js/672.6e2699df.chunk.js.map",
-    "907.d7d892bb.chunk.css.map": "/Portfolio/static/css/907.d7d892bb.chunk.css.map",
-    "907.bc500678.chunk.js.map": "/Portfolio/static/js/907.bc500678.chunk.js.map",
     "246.8c336283.chunk.js.map": "/Portfolio/static/js/246.8c336283.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1cb93e8.css",
-    "static/js/main.5de26b62.js"
+    "static/css/main.0295e8f1.css",
+    "static/js/main.a658954f.js"
   ]
 }

@@ -6,12 +6,13 @@ import Navbar from './components/Navbar';
 import Background from './components/Background';
 import Home from './components/Home';
 import Contact from './components/Contact';
+import ContactMe from './components/ContactMe';
 import FirstLoad from './components/FirstLoad';
 import contactInfo from './components/config/contactInfo';
 import Scrollbars from 'react-custom-scrollbars';
 import TimelineProject from './components/TimelineProject';
 
-const Project  = React.lazy(()=>import('./components/Project'));
+//const Project  = React.lazy(()=>import('./components/Project'));
 const AboutPage = React.lazy(()=>import('./components/AboutPage'));
 
 
@@ -84,11 +85,7 @@ function App() {
 
               }></Route>
               <Route path = '/Contact' element = {
-                <div className ="contactGrid">
-                  {contactInfo.map((item,index)=>(
-                    <Contact toAdd = {item}/>
-                  ))}
-                </div>
+                <ContactMe />
               }></Route>
               <Route path = '/About' element = 
               {<React.Suspense>

@@ -20,7 +20,7 @@ function TimelineProject(props){
                                 <small>{item.date}</small>
                                 <p>{item.description}</p>
                                 <span className = "left-container-arrow"></span>
-                                <span className = "timelineLinkL"> Link <FaGithub /></span>
+                                <span className = "timelineLinkL"> <a href= {item.repoLink} target= '_blank'>Link <FaGithub /> </a></span>
                             </div>
                         </div>
                         )
@@ -34,7 +34,7 @@ function TimelineProject(props){
                                 <small>{item.date}</small>
                                 <p>{item.description}</p>
                                 <span className = "right-container-arrow"></span>
-                                <span className = "timelineLinkR"> Link <FaGithub /></span>
+                                <span className = "timelineLinkR"> <a href= {item.repoLink} target= '_blank'>Link <FaGithub /> </a> </span>
                             </div>
                         </div>                    
                         )

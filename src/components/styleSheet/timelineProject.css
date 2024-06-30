@@ -170,6 +170,30 @@ left:50%;
     color:black;
 }
 
+.timelineLinkL a{
+    text-decoration:none;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+}
+.timelineLinkL a:hover{
+
+    color:black;
+}
+
+.timelineLinkR a{
+    text-decoration:none;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+}
+.timelineLinkR a:hover{
+
+    color:black;
+}
+
 @media (orientation:portrait){
     .timelineLinkL{
         width:60%;

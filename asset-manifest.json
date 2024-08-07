@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.bf5fe223.css",
-    "main.js": "/Portfolio/static/js/main.a6ea76cd.js",
+    "main.js": "/Portfolio/static/js/main.281b7c1f.js",
     "static/css/806.d74735b7.chunk.css": "/Portfolio/static/css/806.d74735b7.chunk.css",
     "static/js/806.cd3072f8.chunk.js": "/Portfolio/static/js/806.cd3072f8.chunk.js",
     "static/js/246.8c336283.chunk.js": "/Portfolio/static/js/246.8c336283.chunk.js",
@@ -21,9 +21,9 @@
     "static/media/c-logo.png": "/Portfolio/static/media/c-logo.2b2276395e116be80813.png",
     "static/media/html5-logo.png": "/Portfolio/static/media/html5-logo.aa710682752a18d5add3.png",
     "static/media/brickBreaker.png": "/Portfolio/static/media/brickBreaker.d37f6ed5c5f4e9b28e94.png",
+    "static/media/Muhammad_Mobeen_Resume_ML.pdf": "/Portfolio/static/media/Muhammad_Mobeen_Resume_ML.07c0362509579fd0a213.pdf",
     "static/media/java-logo-2.png": "/Portfolio/static/media/java-logo-2.44b65100370243570faa.png",
     "static/media/olaDoc.jpg": "/Portfolio/static/media/olaDoc.a7650f5d8b4c3091c583.jpg",
-    "static/media/Muhammad_Mobeen_CV.pdf": "/Portfolio/static/media/Muhammad_Mobeen_CV.70c72f6d320fc4214f72.pdf",
     "static/media/fastLogo.png": "/Portfolio/static/media/fastLogo.98200a22d0868b55c905.png",
     "static/media/flexPortal.png": "/Portfolio/static/media/flexPortal.222856c44e2a5f3cb1ea.png",
     "static/media/assembly-icon.png": "/Portfolio/static/media/assembly-icon.5e20595f37fa38f9dae0.png",
@@ -31,13 +31,13 @@
     "static/media/gaming.png": "/Portfolio/static/media/gaming.f8158caec3e648dfa873.png",
     "index.html": "/Portfolio/index.html",
     "main.bf5fe223.css.map": "/Portfolio/static/css/main.bf5fe223.css.map",
-    "main.a6ea76cd.js.map": "/Portfolio/static/js/main.a6ea76cd.js.map",
+    "main.281b7c1f.js.map": "/Portfolio/static/js/main.281b7c1f.js.map",
     "806.d74735b7.chunk.css.map": "/Portfolio/static/css/806.d74735b7.chunk.css.map",
     "806.cd3072f8.chunk.js.map": "/Portfolio/static/js/806.cd3072f8.chunk.js.map",
     "246.8c336283.chunk.js.map": "/Portfolio/static/js/246.8c336283.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bf5fe223.css",
-    "static/js/main.a6ea76cd.js"
+    "static/js/main.281b7c1f.js"
   ]
 }

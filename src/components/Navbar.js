@@ -6,7 +6,7 @@ import {FaBars} from 'react-icons/fa';
 import {FaX} from 'react-icons/fa6';
 import {MdOutlineContactPage} from 'react-icons/md';
 import {useState} from 'react';
-import CV from '../assets/Muhammad_Mobeen_CV.pdf';
+import CV from '../assets/Muhammad_Mobeen_Resume_ML.pdf'
 function Navbar(props){
 
     let [hammer,setHammer] = useState(false);

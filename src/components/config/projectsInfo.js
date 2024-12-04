@@ -19,8 +19,30 @@ import reactLogo from '../../assets/react-logo.png';
 import dotNetLogo from '../../assets/dotnet-logo.png';
 import htmlLogo from '../../assets/html5-logo.png';
 import assemblyLogo from '../../assets/assembly-icon.png';
+import langchainLogo from '../../assets/langchainLogo.png';
+import jupyterLogo from '../../assets/jupyterLogo.png';
 
 let projectsInfo = [
+{
+    "name":'Churn Prediction + RAG',
+    "date":'September 2024 - October 2024',
+    "description":'End to End machine learning project to detect customer churn based on set number of features. Project also includes Text2SQL and RAG based report generation from both SQL and Vector DB',
+    "repoLink":'https://github.com/Mobeen0/ChurnPredictionPipeline',
+    "tags":['Python','Machine Learning','RAG','Text2SQL','FastAPI','LLM'],
+    "image":retinal,
+    "main":'Python',
+    "logo": langchainLogo
+},
+{
+    "name":'Data Science Projects',
+    "date":'January 2024 - Present',
+    "description":'A collection of Data Science projects that showcase my joruney to becoming a Machine learning Engineer. From basic linear regression problems all the way to fine tuning large languange models can be found here.',
+    "repoLink":'https://github.com/Mobeen0/Data_Science_Projects',
+    "tags":['Python','Machine Learning','Deep Learning','LLM','Fine Tuning','Jupyter Notebook'],
+    "image":jupyterLogo,
+    "main":'Python',
+    "logo": jupyterLogo
+},
 {
     "name": 'Glaucoma Detection',
     "date": "April 2024 - May 2024",
